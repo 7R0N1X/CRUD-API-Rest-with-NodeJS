@@ -1,0 +1,28 @@
+{
+  "name": "crud-api-rest-with-nodejs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/7R0N1X/CRUD-API-Rest-with-NodeJS.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/7R0N1X/CRUD-API-Rest-with-NodeJS/issues"
+  },
+  "homepage": "https://github.com/7R0N1X/CRUD-API-Rest-with-NodeJS#readme",
+  "dependencies": {
+    "express": "^4.18.2",
+    "mongoose": "^6.7.5",
+    "morgan": "^1.10.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}

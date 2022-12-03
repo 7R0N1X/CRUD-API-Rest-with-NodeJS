@@ -1,0 +1,28 @@
+### CREAD
+POST http://localhost:3000/api
+Content-Type: application/json
+
+{
+    "name": "Alice Macdonald",
+	"phone": "(266) 479-2608",
+	"email": "nisl@protonmail.couk",
+	"country": "Pakistan",
+	"postalZip": "626674"
+}
+
+### READ
+GET http://localhost:3000/api
+
+### READ BY ID
+GET http://localhost:3000/api/638b6c47a9ec7183e6c7ae02
+
+### UPDATE
+PUT http://localhost:3000/api/638b6c47a9ec7183e6c7ae02
+Content-Type: application/json
+
+{
+	"postalZip": "626673"
+}
+
+### DELETE
+DELETE http://localhost:3000/api/638b6c47a9ec7183e6c7ae02
